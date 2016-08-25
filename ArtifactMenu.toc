@@ -1,0 +1,6 @@
+## Interface: 70000
+## Title: ArtifactMenu
+## Author: Kevin Gilbert (kaygil)
+## Version: 0.1.0
+
+ArtifactMenu.lua
