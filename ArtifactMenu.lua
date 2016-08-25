@@ -5,6 +5,10 @@ local function openWeaponSockets()
     SocketInventoryItem(16);
 end
 
+local function openOffhandSockets()
+    SocketInventoryItem(17);
+end
+
 function SlashCmdList.ARTIFACTMENU(msg, editBox)
     openWeaponSockets();
     print("Opening ArtifactMenu...");
