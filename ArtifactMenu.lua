@@ -1,8 +1,6 @@
-SLASH_ARTIFACTMENU, SLASH_ARTIFACTMENUSHORT = '/artifact', '/am';
-local function openWeaponSockets(msg, editbox)
-  /run SocketInventoryItem(16);
+LASH_ARTIFACTMENU1, SLASH_ARTIFACTMENU2 = '/artifact', '/am';
+function SlashCmdList.ARTIFACTMENU(msg, editBox)
+    SocketInventoryItem(16);
+    print("Opening ArtifactMenu...");
 end
 
-SlashCmdList[SLASH_ARTIFACTMENU] = openWeaponSockets;
-SlashCmdList[SLASH_ARTIFACTMENUSHORT] = openWeaponSockets;
- 
