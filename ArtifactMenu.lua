@@ -5,6 +5,7 @@ local function openWeaponSockets()
     SocketInventoryItem(16);
 end
 
+-- unneeded, because artifacts are "conjoined" items
 local function openOffhandSockets()
     SocketInventoryItem(17);
 end
