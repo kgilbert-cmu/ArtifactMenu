@@ -7,13 +7,15 @@ This is a simple World of Warcraft add-on to automate opening the Artifact inter
 3. It is more intuitive to type `/am` or `/artifact` than the above macro
 4. Some artifacts are off-hands and require inventory slot #17
 
+___
+
 This add-on will simplify all of that to just:
 
 * `/artifact`
 * `/am` (if you're lazy)
 * `/artifactmenu` (if you're forgetful)
 
-# Special Thanks
+## Special Thanks
 
 * [The idea](https://www.reddit.com/r/wow/comments/4ze7uw/psa_macro_to_quickly_open_the_artifact_weapon/) by [/u/HoLeeSchit](https://www.reddit.com/user/HoLeeSchit)
 * [WoW Addon Writing Guide](http://wow.gamepedia.com/User:Cogswobble/Addon_Tutorial/Slash_Commands) by Cogswobble
