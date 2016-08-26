@@ -18,5 +18,5 @@ This add-on will simplify all of that to just:
 * [The idea](https://www.reddit.com/r/wow/comments/4ze7uw/psa_macro_to_quickly_open_the_artifact_weapon/) by [/u/HoLeeSchit](https://www.reddit.com/user/HoLeeSchit)
 * [WoW Addon Writing Guide](http://wow.gamepedia.com/User:Cogswobble/Addon_Tutorial/Slash_Commands) by Cogswobble
 * Wowpedia [slash commands reference](http://wow.gamepedia.com/Creating_a_slash_command)
-* The nice people of [#wowuidev](http://us.battle.net/forums/en/wow/topic/1127130079) for helping me debug
-
+* The nice people of [#wowuidev](http://us.battle.net/forums/en/wow/topic/1127130079) for helping me debug, specifically `kd3`, `Nebula`, and `Semlar`
+* [Farrar-Gilneas](http://us.battle.net/wow/en/character/gilneas/Farrar/simple) for testing this add-on in the *Legion* beta.
