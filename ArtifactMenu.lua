@@ -21,7 +21,7 @@ function SlashCmdList.ARTIFACTMENU(msg, editBox)
     QUALITY.LEGENDARY = 5;
     QUALITY.ARTIFACT = 6;
     QUALITY.HEIRLOOM = 7;
-    local equippedWeapon = GetInventoryItemID("player", GetInventorySlotInfo("MainHandSlot"));
+    local equippedWeapon = GetInventorySlotInfo("MainHandSlot");
     if equippedWeapon == nil then
         print("You do not have any weapons equipped.");
         return
