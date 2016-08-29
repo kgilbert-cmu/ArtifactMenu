@@ -61,7 +61,7 @@ function ArtifactMenuFrame:SetupFrame()
         type = "data source",
         text = "",
         value = "",
-        label = "Artifact",
+        label = "ArtifactMenu",
         OnClick = function (clickedframe, button, down)
             ArtifactMenuFrame:OnClick(button, down, clickedframe)
         end
