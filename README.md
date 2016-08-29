@@ -22,3 +22,4 @@ This add-on will simplify all of that to just:
 * Wowpedia [slash commands reference](http://wow.gamepedia.com/Creating_a_slash_command)
 * The nice people of [#wowuidev](http://us.battle.net/forums/en/wow/topic/1127130079) for helping me debug, specifically `kd3`, `Nebula`, and `Semlar`
 * [Farrar-Gilneas](http://us.battle.net/wow/en/character/gilneas/Farrar/simple) for testing this add-on in the *Legion* beta.
+* [/u/IHateMyHandle](https://www.reddit.com/u/IHateMyHandle), whose add-on [Incentive Program](https://mods.curse.com/addons/wow/incentive-program) served as my inspiration (and also my foundation). The entire LDB frame panel in ArtifactMenu is largely sourced from Incentive Program and I can't be thankful enough. [Incentive Program](https://mods.curse.com/addons/wow/incentive-program) is a QoL add-on (much like ArtifactMenu) which makes queuing for Call To Arms satchels as easy as possible. Go check it out!
