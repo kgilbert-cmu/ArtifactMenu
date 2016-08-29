@@ -19,7 +19,7 @@ end
 function ArtifactMenuFrame:SetupFrame()
     self:UnregisterEvent("ADDON_LOADED")
     --Frame
-    self:SetWidth(32)
+    self:SetWidth(320)
     self:SetHeight(32)
     self:SetPoint("CENTER",32,0)
     self:EnableMouse(true)
@@ -45,7 +45,7 @@ function ArtifactMenuFrame:SetupFrame()
     self.rightGradiant:SetGradientAlpha("Horizontal", 0, 0, 0, 1, 0, 0, 0, 0.2)
     self.text = self:CreateFontString(nil, "ARTWORK", "GameFontWhite")
     self.text:SetJustifyH("CENTER")
-    self.text:SetText("0")
+    self.text:SetText("Open Artifact Menu")
     self.text:SetWidth(40)
     self.text:SetHeight(14)
     self.text:SetPoint("CENTER", 0, -5)
@@ -53,14 +53,13 @@ function ArtifactMenuFrame:SetupFrame()
     self.menu = CreateFrame("Frame","ArtifactMenuFrameMenu", self, "UIDropDownMenuTemplate", 1)
     self.menuOnLoad = menuOnLoad
     UIDropDownMenu_Initialize(self.menu, self.menuOnLoad, "MENU")
+    self:HideFrame();
     self:SetScript("OnClick",
         function(s,button,down)
             s:OnClick(button,down)
         end)
     self.dataBroker = ldb:NewDataObject("ArtifactMenu", {
         type = "data source",
-        text = "",
-        value = "",
         label = "ArtifactMenu",
         OnClick = function (clickedframe, button, down)
             ArtifactMenuFrame:OnClick(button, down, clickedframe)
@@ -75,6 +74,16 @@ function ArtifactMenuFrame:OnClick(button, down, anchorFrame)
     if button == "LeftButton" then
         openArtifactMenu();
     end
+end
+
+function ArtifactMenuFrame:ShowFrame()
+    self:SetAlpha(100)
+    self:EnableMouse(true)
+end
+
+function ArtifactMenuFrame:HideFrame()
+    self:SetAlpha(0)
+    self:EnableMouse(false)
 end
 
 function openArtifactMenu()
