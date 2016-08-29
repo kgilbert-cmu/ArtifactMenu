@@ -1,7 +1,7 @@
 ## Interface: 70000
 ## Title: ArtifactMenu
 ## Author: Kevin Gilbert (kaygil)
-## Version: 1.0.1
+## Version: 1.1.0
 
 libs/LibStub.lua
 libs/CallbackHandler-1.0.lua
