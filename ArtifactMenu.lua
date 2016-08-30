@@ -97,7 +97,7 @@ function openArtifactMenu()
     QUALITY.LEGENDARY = 5;
     QUALITY.ARTIFACT = 6;
     QUALITY.HEIRLOOM = 7;
-    local equippedWeapon = GetInventorySlotInfo("MainHandSlot");
+    local equippedWeapon = GetInventoryItemID("player", GetInventorySlotInfo("MainHandSlot"));
     if equippedWeapon == nil then
         print("You do not have any weapons equipped.");
         return
